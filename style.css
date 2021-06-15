@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  background: rgb(90, 143, 141);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  background: white;
+  min-height: 80vh;
+  max-height: 80vh;
+  min-width: 60%;
+  max-width: 60%;
+  background-color: rgb(198, 230, 230);
+  border-radius: 1rem;
+  box-shadow: 5px 5px 15px #9bf5ea;
+}
+
+.imgSection {
+  height: 70vh;
+  border-radius: 1rem;
+}
+
+.myImg {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background-size: contain;
+}
+
+.jokeSection {
+  margin: 10px 15px;
+}
+
+.myJoke {
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.buttonSection {
+  height: 100%;
+}
+
+.myBtn {
+  align-self: center;
+  margin-left: 20px;
+  color: white;
+  background-color: #0741ad;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+.myBtn:hover {
+  border: 2px solid white;
+}
